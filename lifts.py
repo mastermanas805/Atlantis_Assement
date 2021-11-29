@@ -35,7 +35,7 @@ class lift:
         n = [int(n[:-1]), 1 if n[-1] == "U" else -1]
         
         dis   = 999
-        l = -1
+        l = -2
 
         for i in range(5):
             x = self.distance(n, self.currState[i])
