@@ -23,7 +23,7 @@ Write a python program to scrape the list of links available in this Github repo
 Expected output:
 
 ```
-$ python search\_repos.py
+$ python search_repos.py
  > Query? graphene
  > Output: [https://github.com/graphql-python/graphene/](https://github.com/graphql-python/graphene/)
 
@@ -37,7 +37,7 @@ Write a python program to list all pronunciable substrings of a given string. A 
 Expected output:
 ```
 $ python pronunciable.py
- > Word? \&lt;user inputs the word &quot;House&quot;>
+ > Word? House
  > Output: House: Ho, Hu, He, Hos, Hus Hose, Huse, (.. and so on).
 ```
 **Assignment 3:**
@@ -45,13 +45,11 @@ Given the GPS coordinates of 4 arbitrary cities, A, B, C and D, find the shortes
 
 Expected output:
 ```
-$ python city\_distance.py
+$ python city_distance.py
  > City A: 51.5074 N, 0.1278 W
- > City B: 60.8566 N, 2.3522 E
-
-> City C: 55.2311 N, 2.1222 E
-
-> City D: 64.0010 N, 0.1002 W
+ > City B: 60.8566 N, 2.3522 E 
+ > City C: 55.2311 N, 2.1222 E
+ > City D: 64.0010 N, 0.1002 W
  > Output: A to C to B to D
 ```
 **Assignment 4:**
@@ -61,10 +59,8 @@ Write a python program to scrape a given wikipedia page and return the average o
 ```
 $ python wikipedia.py
  > Enter wikipedia page?
-
-> [https://en.wikipedia.org/wiki/Earth](https://en.wikipedia.org/wiki/Earth)
-
-> Output: 3-letter words: 10/paragraph. 4-letter words: 20/paragraph. 5-letter words: 45/paragraph.
+ > https://en.wikipedia.org/wiki/Earth
+ > Output: 3-letter words: 16/paragraph. 4-letter words: 11/paragraph. 5-letter words: 11/paragraph
 ```
 **Assignment 5:**
 A building has 20 floors and 5 lifts. Each floor of the building has a lift lobby. A user can be on any of the 20 floors and can request a lift. The positions of the lifts are denoted by a 5-length array of random numbers representing the current floor position (and direction of) of each lift. If no direction is given, it means that the lift is sitting idle on that floor. Example:
